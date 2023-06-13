@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background: #5454b2;
+}
+
+.container {
+  width: 50%;
+  background: white;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid dimgray;
+  margin-bottom: 10px;
+}
+
+.nav h4 {
+  margin: 0;
+}
+
+.nav ul {
+  display: flex;
+  margin: 5px;
+}
+
+.nav ul li {
+  list-style-type: none;
+  padding: 0 25px;
+  border-right: 1px solid;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #5454b2;
+  font-weight: 500;
+}
+
+.contact ul li {
+  padding-bottom: 5px;
+}
+
+.nav ul li:nth-child(3) {
+  border: none;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  width: 82px;
+  height: 30px;
+}
+
+.hide {
+  display: none;
+}
+
+.add .show {
+  display: block;
+}
+
+div.form-item.show {
+  display: block;
+}
+
+.form-item {
+  display: none;
+}
+
+.contact-cont {
+  display: none;
+}
+
+.contact h2 {
+  margin: 10px 0 0 0;
+}
+
+header h1 {
+  margin: 0;
+  padding-left: 9px;
+}
+
+.main-content h2 {
+  text-align: center;
+}
+
+/* new styles  */
+.book {
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-btn {
+  margin-left: 10px;
+  width: 80px;
+  height: 30px;
+}
+
+.books {
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.form {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+}
+
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+input {
+  width: 210px;
+  height: 23px;
+}
+
+button.button.remove-btn {
+  position: relative;
+  left: 61px;
+}
+
+footer {
+  margin-top: 50px;
+  border: 1px solid black;
+  padding-left: 10px;
+}
+
+footer p {
+  margin: 0;
+  padding: 7px 0;
+}
+
+div.contact-cont.show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 55px;
+}
